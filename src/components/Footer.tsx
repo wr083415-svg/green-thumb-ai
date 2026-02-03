@@ -1,4 +1,4 @@
-import { Leaf, Facebook, Instagram, Twitter } from "lucide-react";
+import { Palmtree, Facebook, Instagram, Twitter } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,9 +11,9 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <div className="p-2 rounded-xl bg-accent/20">
-                <Leaf className="w-6 h-6 text-accent" />
+                <Palmtree className="w-6 h-6 text-accent" />
               </div>
-              <span className="font-serif text-2xl font-bold">GreenScape</span>
+              <span className="font-serif text-2xl font-bold">Island Breeze</span>
             </div>
             <p className="text-background/70 mb-6 max-w-md">
               Creating beautiful outdoor spaces for over 15 years. 
@@ -66,7 +66,7 @@ const Footer = () => {
 
         <div className="border-t border-background/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-background/60 text-sm">
-            © {currentYear} GreenScape Landscaping. All rights reserved.
+            © {currentYear} Island Breeze Landscaping. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-background/60">
             <a href="#" className="hover:text-accent transition-colors">Privacy Policy</a>

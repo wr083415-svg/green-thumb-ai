@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, Leaf, X } from "lucide-react";
+import { Menu, Palmtree, X } from "lucide-react";
 
 const navLinks = [
   { label: "Home", href: "#" },
@@ -51,10 +51,10 @@ const Header = () => {
             className="flex items-center gap-2"
           >
             <div className={`p-2 rounded-xl ${isScrolled ? "bg-primary" : "bg-primary-foreground/20"}`}>
-              <Leaf className={`w-6 h-6 ${isScrolled ? "text-primary-foreground" : "text-accent"}`} />
+              <Palmtree className={`w-6 h-6 ${isScrolled ? "text-primary-foreground" : "text-accent"}`} />
             </div>
             <span className={`font-serif text-2xl font-bold ${isScrolled ? "text-foreground" : "text-primary-foreground"}`}>
-              GreenScape
+              Island Breeze
             </span>
           </a>
 
@@ -98,9 +98,9 @@ const Header = () => {
               <div className="flex flex-col h-full pt-8">
                 <div className="flex items-center gap-2 mb-10">
                   <div className="p-2 rounded-xl bg-accent/20">
-                    <Leaf className="w-6 h-6 text-accent" />
+                    <Palmtree className="w-6 h-6 text-accent" />
                   </div>
-                  <span className="font-serif text-2xl font-bold">GreenScape</span>
+                  <span className="font-serif text-2xl font-bold">Island Breeze</span>
                 </div>
                 <nav className="flex flex-col gap-6">
                   {navLinks.map((link) => (

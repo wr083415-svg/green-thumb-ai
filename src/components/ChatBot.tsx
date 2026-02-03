@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
-import { MessageCircle, X, Send, Leaf, Loader2 } from "lucide-react";
+import { MessageCircle, X, Send, Palmtree, Loader2 } from "lucide-react";
 import { toast } from "sonner";
 import ReactMarkdown from "react-markdown";
 
@@ -19,7 +19,7 @@ const ChatBot = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "assistant",
-      content: "Hi there! 👋 I'm your GreenScape assistant. How can I help you with your landscaping needs today?",
+      content: "Hi there! 🌴 I'm your Island Breeze assistant. How can I help you with your landscaping needs today?",
     },
   ]);
   const [input, setInput] = useState("");
@@ -182,10 +182,10 @@ const ChatBot = () => {
         {/* Header */}
         <div className="bg-primary text-primary-foreground p-4 flex items-center gap-3">
           <div className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center">
-            <Leaf className="w-5 h-5 text-accent" />
+            <Palmtree className="w-5 h-5 text-accent" />
           </div>
           <div>
-            <h3 className="font-semibold">GreenScape Assistant</h3>
+            <h3 className="font-semibold">Island Breeze Assistant</h3>
             <p className="text-xs text-primary-foreground/70">Ask us anything about landscaping!</p>
           </div>
         </div>
@@ -206,7 +206,7 @@ const ChatBot = () => {
                         : "bg-primary text-primary-foreground"
                     }
                   >
-                    {message.role === "user" ? "U" : <Leaf className="w-4 h-4" />}
+                    {message.role === "user" ? "U" : <Palmtree className="w-4 h-4" />}
                   </AvatarFallback>
                 </Avatar>
                 <div
@@ -230,7 +230,7 @@ const ChatBot = () => {
               <div className="flex gap-3">
                 <Avatar className="w-8 h-8 flex-shrink-0">
                   <AvatarFallback className="bg-primary text-primary-foreground">
-                    <Leaf className="w-4 h-4" />
+                    <Palmtree className="w-4 h-4" />
                   </AvatarFallback>
                 </Avatar>
                 <div className="bg-muted rounded-2xl rounded-bl-md px-4 py-3">

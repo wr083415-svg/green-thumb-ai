@@ -41,13 +41,13 @@ const About = () => {
           {/* Content Section */}
           <div>
             <Badge variant="secondary" className="mb-4 bg-accent/10 text-accent border-accent/20">
-              About GreenScape
+              About Island Breeze
             </Badge>
             <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-6">
               Creating Beautiful Outdoor Spaces Since 2009
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              At GreenScape Landscaping, we believe that every outdoor space has the potential 
+              At Island Breeze Landscaping, we believe that every outdoor space has the potential 
               to become something extraordinary. Our passionate team of designers and horticulturists 
               work together to transform your vision into a stunning reality.
             </p>

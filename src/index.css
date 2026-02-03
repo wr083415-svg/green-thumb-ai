@@ -4,97 +4,97 @@
 @tailwind components;
 @tailwind utilities;
 
-/* GreenScape Landscaping Design System
-   Nature-inspired palette with deep greens, warm creams, and gold accents
+/* Island Breeze Landscaping Design System
+   Tropical palette with light blue, vibrant green, and warm orange accents
 */
 
 @layer base {
   :root {
-    --background: 45 33% 97%;
-    --foreground: 150 30% 15%;
+    --background: 180 30% 97%;
+    --foreground: 195 40% 15%;
 
-    --card: 45 40% 98%;
-    --card-foreground: 150 30% 15%;
+    --card: 180 35% 98%;
+    --card-foreground: 195 40% 15%;
 
-    --popover: 45 40% 98%;
-    --popover-foreground: 150 30% 15%;
+    --popover: 180 35% 98%;
+    --popover-foreground: 195 40% 15%;
 
-    --primary: 145 45% 22%;
-    --primary-foreground: 45 33% 97%;
+    --primary: 195 70% 45%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 45 30% 90%;
-    --secondary-foreground: 145 45% 22%;
+    --secondary: 160 50% 92%;
+    --secondary-foreground: 160 60% 25%;
 
-    --muted: 45 20% 92%;
-    --muted-foreground: 150 15% 40%;
+    --muted: 180 20% 92%;
+    --muted-foreground: 195 25% 40%;
 
-    --accent: 38 70% 50%;
-    --accent-foreground: 150 30% 15%;
+    --accent: 25 95% 55%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 45 33% 97%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 45 25% 85%;
-    --input: 45 25% 85%;
-    --ring: 145 45% 22%;
+    --border: 180 25% 85%;
+    --input: 180 25% 85%;
+    --ring: 195 70% 45%;
 
     --radius: 0.75rem;
 
-    /* Custom landscaping colors */
-    --forest: 145 45% 22%;
-    --sage: 140 25% 45%;
-    --cream: 45 33% 97%;
-    --gold: 38 70% 50%;
-    --earth: 30 25% 35%;
-    --moss: 130 35% 35%;
+    /* Custom tropical colors */
+    --ocean: 195 70% 45%;
+    --lagoon: 185 60% 55%;
+    --palm: 160 60% 35%;
+    --sunset: 25 95% 55%;
+    --coral: 15 85% 60%;
+    --sand: 45 40% 90%;
 
-    --sidebar-background: 145 35% 18%;
-    --sidebar-foreground: 45 33% 97%;
-    --sidebar-primary: 38 70% 50%;
-    --sidebar-primary-foreground: 150 30% 15%;
-    --sidebar-accent: 145 40% 25%;
-    --sidebar-accent-foreground: 45 33% 97%;
-    --sidebar-border: 145 30% 25%;
-    --sidebar-ring: 38 70% 50%;
+    --sidebar-background: 195 65% 35%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 25 95% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 195 60% 42%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 195 50% 40%;
+    --sidebar-ring: 25 95% 55%;
   }
 
   .dark {
-    --background: 150 30% 8%;
-    --foreground: 45 33% 97%;
+    --background: 195 40% 8%;
+    --foreground: 180 30% 97%;
 
-    --card: 150 25% 12%;
-    --card-foreground: 45 33% 97%;
+    --card: 195 35% 12%;
+    --card-foreground: 180 30% 97%;
 
-    --popover: 150 25% 12%;
-    --popover-foreground: 45 33% 97%;
+    --popover: 195 35% 12%;
+    --popover-foreground: 180 30% 97%;
 
-    --primary: 140 40% 50%;
-    --primary-foreground: 150 30% 8%;
+    --primary: 195 65% 55%;
+    --primary-foreground: 195 40% 8%;
 
-    --secondary: 150 20% 18%;
-    --secondary-foreground: 45 33% 97%;
+    --secondary: 195 25% 18%;
+    --secondary-foreground: 180 30% 97%;
 
-    --muted: 150 20% 18%;
-    --muted-foreground: 45 20% 70%;
+    --muted: 195 25% 18%;
+    --muted-foreground: 180 20% 70%;
 
-    --accent: 38 70% 55%;
-    --accent-foreground: 150 30% 8%;
+    --accent: 25 90% 60%;
+    --accent-foreground: 195 40% 8%;
 
     --destructive: 0 62% 45%;
-    --destructive-foreground: 45 33% 97%;
+    --destructive-foreground: 180 30% 97%;
 
-    --border: 150 20% 20%;
-    --input: 150 20% 20%;
-    --ring: 140 40% 50%;
+    --border: 195 25% 20%;
+    --input: 195 25% 20%;
+    --ring: 195 65% 55%;
 
-    --sidebar-background: 150 30% 6%;
-    --sidebar-foreground: 45 33% 97%;
-    --sidebar-primary: 38 70% 55%;
-    --sidebar-primary-foreground: 150 30% 8%;
-    --sidebar-accent: 150 25% 15%;
-    --sidebar-accent-foreground: 45 33% 97%;
-    --sidebar-border: 150 20% 15%;
-    --sidebar-ring: 38 70% 55%;
+    --sidebar-background: 195 40% 6%;
+    --sidebar-foreground: 180 30% 97%;
+    --sidebar-primary: 25 90% 60%;
+    --sidebar-primary-foreground: 195 40% 8%;
+    --sidebar-accent: 195 30% 15%;
+    --sidebar-accent-foreground: 180 30% 97%;
+    --sidebar-border: 195 25% 15%;
+    --sidebar-ring: 25 90% 60%;
   }
 }
 
