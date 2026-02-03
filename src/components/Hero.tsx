@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Leaf, ArrowDown } from "lucide-react";
+import { Palmtree, ArrowDown } from "lucide-react";
 
 const Hero = () => {
   const scrollToServices = () => {
@@ -22,21 +22,21 @@ const Hero = () => {
       
       {/* Decorative elements */}
       <div className="absolute top-20 left-10 opacity-20">
-        <Leaf className="w-32 h-32 text-accent rotate-12" />
+        <Palmtree className="w-32 h-32 text-accent rotate-12" />
       </div>
       <div className="absolute bottom-32 right-16 opacity-15">
-        <Leaf className="w-24 h-24 text-accent -rotate-45" />
+        <Palmtree className="w-24 h-24 text-accent -rotate-45" />
       </div>
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto animate-fade-in">
           <div className="flex items-center justify-center gap-3 mb-6">
-            <Leaf className="w-8 h-8 text-accent" />
+            <Palmtree className="w-8 h-8 text-accent" />
             <span className="text-accent font-medium tracking-widest uppercase text-sm">
               Professional Landscaping Services
             </span>
-            <Leaf className="w-8 h-8 text-accent" />
+            <Palmtree className="w-8 h-8 text-accent" />
           </div>
           
           <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold text-primary-foreground mb-6 leading-tight">
